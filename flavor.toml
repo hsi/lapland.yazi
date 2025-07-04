@@ -3,33 +3,33 @@
 # : Manager {{{
 
 [mgr]
-cwd = { fg = "cyan" }
+cwd = { fg = "#afaf87", bold = true }
 
 # Hovered
-hovered         = { reversed = true }
+hovered         = { bg = "#262626" }
 preview_hovered = { underline = true }
 
 # Find
-find_keyword  = { fg = "yellow", bold = true, italic = true, underline = true }
-find_position = { fg = "magenta", bg = "reset", bold = true, italic = true }
+find_keyword  = { fg = "#ffffaf", bg = "#8700ff", bold = true }
+find_position = { fg = "#afaf87", bg = "reset" }
 
 # Symlink
 symlink_target = { italic = true }
 
 # Marker
-marker_copied   = { fg = "lightgreen",  bg = "lightgreen" }
-marker_cut      = { fg = "lightred",    bg = "lightred" }
-marker_marked   = { fg = "lightcyan",   bg = "lightcyan" }
-marker_selected = { fg = "lightyellow", bg = "lightyellow" }
+marker_copied   = { fg = "#00af87", bg = "#00af87" }
+marker_cut      = { fg = "#ff0087", bg = "#ff0087" }
+marker_marked   = { fg = "#8700ff", bg = "#8700ff" }
+marker_selected = { fg = "#8700ff", bg = "#8700ff" }
 
 # Count
-count_copied   = { fg = "white", bg = "green" }
-count_cut      = { fg = "white", bg = "red" }
-count_selected = { fg = "white", bg = "yellow" }
+count_copied   = { fg = "#dadada", bg = "#00af87", bold = true }
+count_cut      = { fg = "#dadada", bg = "#ff0087", bold = true }
+count_selected = { fg = "#dadada", bg = "#8700ff", bold = true }
 
 # Border
 border_symbol = "│"
-border_style  = { fg = "gray" }
+border_style  = { fg = "#262626" }
 
 # Highlighting
 syntect_theme = ""
@@ -40,8 +40,8 @@ syntect_theme = ""
 # : Tabs {{{
 
 [tabs]
-active   = { bg = "blue", bold = true }
-inactive = { fg = "blue", bg = "gray" }
+active   = { fg = "#1c1c1c", bg = "#afaf87", bold = true }
+inactive = { fg = "#afaf87", bg = "#121212", bold = true }
 
 # Separator
 sep_inner = { open = "", close = "" }
