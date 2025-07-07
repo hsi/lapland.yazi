@@ -53,16 +53,16 @@ sep_outer = { open = "", close = "" }
 # : Mode {{{
 
 [mode]
-normal_main = { bg = "blue", bold = true }
-normal_alt  = { fg = "blue", bg = "gray" }
+normal_main = { fg = "#1c1c1c", bg = "#afaf87", bold = true }
+normal_alt  = { fg = "#afaf87", bg = "#121212" }
 
 # Select mode
-select_main = { bg = "red", bold = true }
-select_alt  = { fg = "red", bg = "gray" }
+select_main = { fg = "#dadada", bg = "#8700ff", bold = true }
+select_alt  = { fg = "#8700ff", bg = "#121212" }
 
 # Unset mode
-unset_main = { bg = "red", bold = true }
-unset_alt  = { fg = "red", bg = "gray" }
+unset_main = { fg = "#dadada", bg = "#8700ff", bold = true }
+unset_alt  = { fg = "#8700ff", bg = "#121212" }
 
 # : }}}
 
