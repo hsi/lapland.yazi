@@ -93,12 +93,12 @@ progress_error  = { fg = "red", bg = "black" }
 
 [which]
 cols            = 3
-mask            = { bg = "black" }
-cand            = { fg = "lightcyan" }
+mask            = { bg = "#121212" }
+cand            = { fg = "#00afff" }
 rest            = { fg = "darkgray" }
-desc            = { fg = "lightmagenta" }
+desc            = { fg = "#dadada" }
 separator       = "  "
-separator_style = { fg = "darkgray" }
+separator_style = { fg = "#585858" }
 
 # : }}}
 
