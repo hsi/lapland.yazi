@@ -106,12 +106,12 @@ separator_style = { fg = "#585858" }
 # : Confirmation {{{
 
 [confirm]
-border     = { fg = "blue" }
-title      = { fg = "blue" }
+border     = { fg = "#dadada", bg = "#121212" }
+title      = { fg = "#dadada", bg = "#121212", bold = true }
 content    = {}
-list       = {}
-btn_yes    = { reversed = true }
-btn_no     = {}
+list       = { fg = "#dadada", bg = "#121212" }
+btn_yes    = { fg = "#dadada", bg = "#00af87", bold = true}
+btn_no     = { fg = "#dadada", bg = "#ff0087", bold = true}
 btn_labels = [ "  [Y]es  ", "  (N)o  " ]
 
 # : }}}
