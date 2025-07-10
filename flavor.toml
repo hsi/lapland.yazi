@@ -120,12 +120,12 @@ btn_labels = [ "  [Y]es  ", "  (N)o  " ]
 # : Spotter {{{
 
 [spot]
-border = { fg = "blue" }
-title  = { fg = "blue" }
+border = { fg = "#dadada", bg = "#121212" }
+title  = { bold = true }
 
 # Table
-tbl_col  = { fg = "blue" }
-tbl_cell = { fg = "yellow", reversed = true }
+tbl_col  = { fg = "#dadada", bg = "#121212" }
+tbl_cell = { bg = "#8700ff" }
 
 # : }}}
 
