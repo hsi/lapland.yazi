@@ -133,9 +133,9 @@ tbl_cell = { bg = "#8700ff" }
 # : Notification {{{
 
 [notify]
-title_info  = { fg = "green" }
-title_warn  = { fg = "yellow" }
-title_error = { fg = "red" }
+title_info  = { fg = "#00af87" }
+title_warn  = { fg = "#ff5f00" }
+title_error = { fg = "#ff0087" }
 
 # Icons
 icon_info  = ""
@@ -158,10 +158,10 @@ inactive = {}
 # : Input {{{
 
 [input]
-border   = { fg = "blue" }
-title    = {}
-value    = {}
-selected = { reversed = true }
+border   = { fg = "#dadada", bg = "#121212" }
+title    = { fg = "#dadada" }
+value    = { fg = "#dadada", bg = "#121212" }
+selected = { bg = "#8700ff" }
 
 # : }}}
 
@@ -184,9 +184,9 @@ icon_command = ""
 # : Task manager {{{
 
 [tasks]
-border  = { fg = "blue" }
-title   = {}
-hovered = { fg = "magenta", underline = true }
+border  = { fg = "#dadada", bg = "#121212" }
+title   = { fg = "#dadada" }
+hovered = { bg = "#262626" }
 
 # : }}}
 
@@ -194,11 +194,11 @@ hovered = { fg = "magenta", underline = true }
 # : Help menu {{{
 
 [help]
-on      = { fg = "cyan" }
-run     = { fg = "magenta" }
-desc    = {}
-hovered = { reversed = true, bold = true }
-footer  = { fg = "black", bg = "white" }
+on      = { fg = "#dadada", bold = true }
+run     = { fg = "#00afff" }
+desc    = { fg = "#dadada" }
+hovered = { bg = "#262626" }
+footer  = { fg = "#afaf87", bold = true }
 
 # : }}}
 
