@@ -208,16 +208,16 @@ footer  = { fg = "#afaf87", bold = true }
 [filetype]
 rules = [
 	# Images
-	{ mime = "image/*", fg = "yellow" },
+	{ mime = "image/*", fg = "#00afff" },
 
 	# Media
-	{ mime = "{audio,video}/*", fg = "magenta" },
+	{ mime = "{audio,video}/*", fg = "#00afff" },
 
 	# Archives
-	{ mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "red" },
+	{ mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "#8700ff" },
 
 	# Documents
-	{ mime = "application/{pdf,doc,rtf}", fg = "cyan" },
+	{ mime = "application/{pdf,doc,rtf}", fg = "#ffffaf" },
 
 	# Empty files
 	# { mime = "inode/empty", fg = "red" },
