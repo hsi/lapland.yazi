@@ -95,7 +95,7 @@ progress_error  = { fg = "red", bg = "black" }
 cols            = 3
 mask            = { bg = "#121212" }
 cand            = { fg = "#00afff" }
-rest            = { fg = "darkgray" }
+rest            = { fg = "#dadada" }
 desc            = { fg = "#dadada" }
 separator       = "  "
 separator_style = { fg = "#585858" }
